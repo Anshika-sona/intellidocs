@@ -2,7 +2,7 @@
 
 > Upload any PDF. Ask questions in plain English. Get cited answers instantly.
 
-**Live Demo:** [YOUR_RAILWAY_URL](https://intellidocs-production-104b.up.railway.app/)
+**Live Demo:** [https://intellidocs-production-104b.up.railway.app/](https://intellidocs-production-104b.up.railway.app/)
 
 ---
 
@@ -129,17 +129,3 @@ Full API docs: `https://intellidocs-production-104b.up.railway.app//docs`
 
 Built with ❤️ as a portfolio project to demonstrate production-grade AI engineering.
 ```
-
-Save with **Ctrl+S**.
-
----
-
-## STEP 2 — Create .env.example
-
-Create a new file called `.env.example` in root:
-```
-DATABASE_URL=postgresql://username:password@host/dbname?sslmode=require
-REDIS_URL=rediss://:password@host:6379
-GROQ_API_KEY=gsk_your_key_here
-UPLOAD_DIR=./uploads
-MAX_UPLOAD_SIZE_MB=50
