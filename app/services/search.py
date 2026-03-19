@@ -8,8 +8,11 @@ from rank_bm25 import BM25Okapi
 
 load_dotenv()
 
-# Free local embedding model
-model = SentenceTransformer('all-MiniLM-L6-v2')
+
+# Cache model in /tmp to avoid re-downloading
+MODEL_CACHE = "/tmp/model_cache"
+os.makedirs(MODEL_CACHE, exist_ok=True)
+model = SentenceTransformer('all-MiniLM-L6-v2', cache_folder=MODEL_CACHE)
 print("Embedding model loaded!")
 
 
