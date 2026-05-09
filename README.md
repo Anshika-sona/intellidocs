@@ -7,8 +7,7 @@
 ---
 
 ## What It Does
-
-IntelliDocs is a production-grade document intelligence platform. Upload any PDF document and ask questions about it in plain English — the system finds the most relevant information across all your documents and returns a grounded answer with exact source citations.
+nt intelligence platform. Upload any PDF document and ask questions about it in plain English — the system finds the most relevant information across all your documents and returns a grounded answer with exact source citations.
 
 **Real example:**
 - Upload Anshika's resume + a Terraform document
