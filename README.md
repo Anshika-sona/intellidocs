@@ -125,6 +125,8 @@ Full API docs: `https://intellidocs-production-104b.up.railway.app//docs`
 - **pgvector HNSW indexes** dramatically speed up similarity search at scale
 - **RRF is rank-based, not score-based** — this makes it robust across different retrieval systems
 
+- #test
+
 ---
 
 Built with ❤️ as a portfolio project to demonstrate production-grade AI engineering.
