@@ -1,4 +1,4 @@
-# ⚡ IntelliDocs
+#### ⚡ IntelliDocs
 
 > Upload any PDF. Ask questions in plain English. Get cited answers instantly.
 
